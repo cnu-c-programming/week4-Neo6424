@@ -24,7 +24,7 @@ int max(int arr[], int n){
 
 int main() {
         int arr[] = {3, 7,1, 9,4, 6};
-        int n sizeof(arr) / sizeof(arr[0]);
+        int n = sizeof(arr) / sizeof(arr[0]);
 
         printf("sum: %d\n", sum(arr,n));
         printf("avg: %.2f\n", average(arr,n));

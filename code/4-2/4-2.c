@@ -5,10 +5,21 @@ int sum(int arr[], int n){
         for(int i =0; i<n; i++){
                 sum = sum+arr[i];
         }
+        return sum;
 }
 double average(int arr[], int n){
+        double avg = 0;
+        avg = (double)sum(arr, n) / n;
+        return avg;
 }
 int max(int arr[], int n){
+        int max = arr[0];
+        for (int i = 1; i < n; i++) {
+        if (arr[i] > max_val) {
+            max_val = arr[i]; 
+        }
+    }
+        return max;
 }
 
 int main() {
